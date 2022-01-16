@@ -1,0 +1,97 @@
+body{
+   background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
+
+h1{
+    font-size: 30px;
+    font-family: "Nature Beauty";
+}
+
+
+
+#container{
+    display: flex;
+    position: relative;
+    animation-name: defilement;
+    animation-duration: 20s ;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+  
+    
+}
+
+#container2{
+   border: 8px groove;
+   overflow: hidden;
+   width: 500px;
+   height: 640px;
+  
+}
+
+@keyframes defilement{
+    from{
+        left:0;
+    }10%,
+    20%{
+        left: -500px;
+    }
+
+    30%,
+    40%{
+        left: -1000px;
+    }
+
+    50%,
+    60%{
+        left: -1500px;
+    }
+
+    70%,
+    80%{
+        left: -2000px;
+    }
+
+    100%{
+        left: -2000px;
+    }
+
+}
+
+
+button{
+    position: absolute;
+    left: 700px;
+    top: 780px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right:50px;
+    padding-left:50px;
+    border-radius:25px;
+    background-color: darkcyan;
+
+    
+    }
+    
+    a{
+        text-decoration: none;
+        text-align: center;
+        color: white;
+    }
+
+
+
+
+#philosophe{
+    position: absolute;
+    bottom: 250px;
+    right: 700px;
+}
+@font-face {
+    font-family: "Nature Beauty";
+    src: url("../asset/police/Nature Beauty.ttf");
+}

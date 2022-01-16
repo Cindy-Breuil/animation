@@ -1,0 +1,125 @@
+
+
+h1{
+    font-family: "nature beauty";
+    text-align: center;
+
+}
+body{
+    background-color: cadetblue;
+}
+
+#ecran{
+    border: 5px solid;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    margin-left: 500px;
+}
+
+.balle1{
+    height: 30px;
+    width: 30px;
+    background-color: blue;
+    border-radius: 100%;
+    position: absolute;
+    left:500px;
+    top: 250px;
+    animation-name: mvBleu;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.balle2{
+    height: 30px;
+    width: 30px;
+    background-color: pink;
+    border-radius: 100%;
+    position: absolute;
+    left:500px;
+    top: 250px;
+    animation-name: mvBleu;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+}
+
+.balle3{
+    height: 30px;
+    width: 30px;
+    background-color: green;
+    border-radius: 100%;
+    position: absolute;
+    left:500px;
+    top: 250px;
+    animation-name: mvBleu;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+}
+
+.balle4{
+    height: 30px;
+    width: 30px;
+    background-color: yellow;
+    border-radius: 100%;
+    position: absolute;
+    left:500px;
+    top: 250px;
+    animation-name: mvBleu;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+}
+
+button{
+position: absolute;
+left: 700px;
+top: 650px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right:50px;
+padding-left:50px;
+border-radius:25px;
+background-color: darkcyan;
+
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+@keyframes mvBleu {
+    from{
+        left:475px;
+        top: 250px;
+    }
+    25%{
+        left:250px;
+        top: 475px;
+    }
+    50%{
+        left: 0;
+        top: 250px;
+    }
+    75%{
+        top: 0;
+        left: 250px;
+    }
+    to{
+        left:475px;
+        top: 250px; 
+    }
+}
+
+
+@font-face {
+    font-family: "nature beauty";
+    src: url("../asset/police/Nature\ Beauty.ttf");
+   }
